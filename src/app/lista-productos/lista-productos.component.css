@@ -1,0 +1,15 @@
+.btn{
+    border: 1px solid blueviolet;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+}
+.container{
+    margin:0 auto;
+    
+
+}
+img{
+    max-width: 50px;
+    max-height: 50px,
+}

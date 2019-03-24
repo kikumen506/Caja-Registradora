@@ -1,0 +1,12 @@
+<div >
+  <h3>PEDIDO</h3>
+    <div *ngFor= "let ord of order">
+        <img [src]="ord.imagen" alt=""> {{ ord.nombre }} {{ ord.precio }} €
+
+    </div>
+    <div>
+        <h4>TOTAL</h4>
+        <span > {{sumaTotal()}} €</span>
+    </div>
+    
+</div>
